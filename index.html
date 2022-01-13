@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>practice js</title>
+</head>
+<body>
+    <div class="title">
+            <h1>Dice Game</h1>
+    </div>
+    <div class="h3">
+        <h3>score : </h3>
+        <h3 id="score">0</h3>
+    </div>
+    <div class="h22">
+        <h2 class="cen">Select a Number</h2>
+    </div>
+    <div class="sel">
+        <div>
+            <div>
+                <img src="images/1.png" alt="image" class="img" onclick="up(1)">
+                <img src="images/2.png" alt="image" class="img1" onclick="up(2)">
+            </div>
+            <div>
+                <img src="images/3.png" alt="image" class="img" onclick="up(3)">
+                <img src="images/4.png" alt="image" class="img1" onclick="up(4)">
+            </div>
+            <div>
+                <img src="images/5.png" alt="image" class="img" onclick="up(5)">
+                <img src="images/6.png" alt="image" class="img1" onclick="up(6)">
+            </div>
+        </div>
+    </div>
+    <div class="res">
+        <div class="left">
+            <h1>you picked</h1>
+            <img src="images/dice1.png" alt="youpicked" id="userimg">
+        </div>
+        <div class="center">
+            <h1 id="toshow">it's a tie</h1>
+            <button class="btn" onclick="restartGame()">play again</button>
+        </div>
+        <div class="right">
+            <h1>computer picked</h1>
+            <img src="images/dice1.png" alt="youpicked" id="comimg">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #1f3757;
+}
+.cen
+{
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(76, 226, 214);
+    margin: 2% 0% 2% 0%;
+    display: flex;
+    margin-left: 41%;
+}
+.img
+{
+    width: 5%;
+    margin-left: 40%;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+.img1
+{
+    width: 5%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+.title
+{
+    align-content: center;
+    padding-left: 5%;
+}
+.title h1
+{
+    font-family: Verdana, sans-serif;
+    font-size: 250%;
+    color: white;
+    margin-left: 36%;
+}
+.h3
+{
+    margin-left: 43%;
+    margin-top: 1%;
+    font-size: 200%;
+    font-family: Helvetica, sans-serif;
+    color: lightblue;
+    display: flex;
+}
+.score
+{
+    margin-left: 2%;
+    font-size: 130%;
+}
+.img:active {
+    box-shadow: 0 5px rgb(78, 157, 202);
+    transform: translateY(4px);
+  }
+.img1:active {
+    box-shadow: 0 5px rgb(78, 157, 202);
+    transform: translateY(4px);
+}
+.h22
+{
+    display: flex;
+}
+.sel
+{
+    display: flex;
+}
+.res
+{
+    display: none;
+    margin-left: 10%;
+}
+.left h1{
+    
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(211, 140, 140);
+    margin-left: 30%;
+    margin-bottom: 10%;
+}
+#pic
+{
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(211, 140, 140);
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+.center
+{
+    width: 50%;
+}
+.center h1
+{
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(221, 194, 240);
+    margin-left: 40%;
+    margin-top: 20%;
+}
+.center button:hover {
+    background-color: #2475d1;
+    color: white;
+  }
+.right h1{
+    
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(211, 140, 140);
+    margin-left: 8%;
+    margin-bottom: 10%;
+}
+.btn {
+    text-decoration: none;
+    border: none;
+    padding: 12px 40px;
+    font-size: 16px;
+    background-color: rgb(27, 93, 216);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s all;
+    margin-top: 12%;
+    margin-left: 40%;
+}
+  
+.btn:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+#toshow{
+    margin-left: 38%;
+}
